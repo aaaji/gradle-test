@@ -34,6 +34,7 @@ public class MainTest {
 	@Test
 	public void springMethod() {
 		Assert.assertNotNull(testService.getTestName());
+		System.out.println("test....");
 	}
 
 }
